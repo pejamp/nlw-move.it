@@ -1,0 +1,55 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue);
+}
+
+.loginContainer > img {
+    display: block;
+    width: 360px;
+    height: 76px;
+}
+
+.loginContainer div {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.loginContainer div strong {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.loginContainer div p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--text-highlight);
+}
+
+.loginContainer div button {
+    padding: 1.2rem;
+    background: var(--blue-dark);
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.loginContainer div button img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer div input {
+    border: none;
+    background: linear-gradient(90deg, var(--blue-dark) 0%, rgba(73, 83, 184, 0.2) 100%);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.loginContainer div input::-webkit-input-placeholder {
+    color: var(--text-highlight);
+}
