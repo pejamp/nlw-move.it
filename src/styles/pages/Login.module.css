@@ -70,6 +70,7 @@
     margin-right: 5px;
 
     font-size: 1rem;
+    color: var(--white);
     
     background: transparent;
     border: none;
@@ -92,6 +93,12 @@
     background: #4953B8;
     border: none;
     border-radius: 0px 5px 5px 0px;
+
+    transition: background-color 0.2s;
+}
+
+.container button:hover {
+    background: var(--green);
 }
 
 @media (max-width: 768px) {

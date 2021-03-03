@@ -5,7 +5,7 @@ import { FiAward, FiHome, FiLogOut } from 'react-icons/fi';
 export function SideBar() {
     return (
         <div className={styles.container}>
-            <img src="logo-full.svg" alt="moveit" />
+            <img src="icons/logo-small.svg" alt="moveit" />
             <div className={styles.buttons}>
                 <button type="button">
                     <div></div>
