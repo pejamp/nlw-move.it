@@ -40,6 +40,7 @@ The following tools were used in the construction of the project:
 
 Required: git, node and yarn (or npm).
 
+```bash
 # Clone Repository
 $ git clone <https://github.com/pedrojrodrigues/NLW-move.it>
 
@@ -52,15 +53,16 @@ $ yarn
 # Run Application
 $ yarn dev
 
-# Access localhost - <http://localhost:3000>        
+# Access localhost - <http://localhost:3000>  
+```      
 
 <h3 id="author"> Author </h3>
----
 
 <a href="https://github.com/pedrojrodrigues">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/53826489?s=460&u=834aa9912aaaa1464d4635cb9fa7767c64a6e9b3&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Pedro Rodrigues</b></sub></a> <a href="https://github.com/pedrojrodrigues">🚀</a>
+ <br />
 
 
 👋🏽 Contact me!
