@@ -4,7 +4,7 @@
     padding: 1rem;
 
     background: url(../../../public/Simbolo.svg) no-repeat top left;
-    background-color: #5965E0;
+    background-color: var(--blue);
     color: var(--white);
 
     display: flex;
@@ -47,7 +47,7 @@
 
     font-size: 1rem;
     font-weight: 500;
-    color: #B3B9FF;
+    color: var(--text-highlight);
 }
 
 .content form {
@@ -57,7 +57,7 @@
 
     display: flex;
 
-    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+    background: linear-gradient(90deg, var(--blue-dark) 0%, rgba(73, 83, 184, 0.2) 100%);
     border-radius: 5px;
     border: none;
 }
@@ -77,7 +77,7 @@
 }
 
 .container input::-webkit-input-placeholder {
-    color: #B3B9FF;
+    color: var(--text-highlight);
 }
 
 .container button {
@@ -90,7 +90,7 @@
     justify-content: center;
     align-items: center;
 
-    background: #4953B8;
+    background: var(--blue-dark);
     border: none;
     border-radius: 0px 5px 5px 0px;
 
